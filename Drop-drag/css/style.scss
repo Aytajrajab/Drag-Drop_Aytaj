@@ -1,0 +1,49 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #boxes,
+    #pictures {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    #boxes {
+        margin-top: 20px;
+    }
+    
+    #box1,
+    #box2,
+    #box3,
+    #box4,
+    #box5 {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        width: 250px;
+        border: 1px solid #aaaaaa;
+        padding: 1rem;
+        overflow: hidden;
+    }
+    
+    img {
+        height: 200px;
+        object-fit: cover;
+        width: 250px;
+    }
+    
+    h1 {
+        text-align: center;
+        margin: 20px 0 20px 0;
+    }
+    
+    p {
+        font-size: 18px;
+    }
